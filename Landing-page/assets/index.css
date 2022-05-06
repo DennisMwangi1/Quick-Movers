@@ -3,23 +3,43 @@
     padding: 0px;
 }
 .sect1{
-    
+    background-color: aqua;
 }
 nav{
     display: flex;
     justify-content: right;
     padding-right: 70px;
-    padding-top: 55px;
+    padding-top: 65px;
     font-family: 'Adamina', serif;
 }
 li{
     display: inline-block;
-    padding: 30px;
+    padding: 18px;
     font-size: 16px;
+    
 }
-.sect1 > nav > ul > li > button{
-    font-size: 17px;
+.sect1 > nav > ul > li > a > button{
+    font-size: 16px;
     padding-left: 10px;
     padding-right: 5px;
     font-family: 'Adamina', serif;
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sect1 > .p1{
+    font-size: 75px;
+    margin-left: 75px;
+    padding-top: 30px;
+    color: #FAFF00;
+}
+.sect1 > .p2{
+    font-size: 50px;
+    margin-left: 75px;
+    padding-top: 50px;
+    color: lightgray;
+
 }
