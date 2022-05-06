@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sect1{
+    
+}
+nav{
+    display: flex;
+    justify-content: right;
+    padding-right: 70px;
+    padding-top: 55px;
+    font-family: 'Adamina', serif;
+}
+li{
+    display: inline-block;
+    padding: 30px;
+    font-size: 16px;
+}
+.sect1 > nav > ul > li > button{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: 'Adamina', serif;
+}
