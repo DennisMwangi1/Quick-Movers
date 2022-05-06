@@ -24,17 +24,25 @@ li{
     
 }
 .sect1 > nav > ul > li > a > button{
-    font-size: 16px;
+    font-size: 17px;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
     font-family: 'Adamina', serif;
     border-radius: 0px;
-    border: 1px solid gray;
+    border: 0;
     cursor: pointer;
 }
 a{
     text-decoration: none;
     color: white;
+}
+#button1{
+    background-color: #FAFF00;
+    color: black;
+}
+#button2{
+    background-color: black;
+    color: #FAFF00;
 }
 .sect1 > .p1{
     font-size: 65px;
@@ -44,7 +52,7 @@ a{
     font-family: 'Adamina' ;
 }
 .sect1 > .p2{
-    font-size: 40px;
+    font-size: 38px;
     margin-left: 75px;
     padding-top: 50px;
     color: lightgray;
