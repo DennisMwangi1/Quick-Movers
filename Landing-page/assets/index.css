@@ -3,7 +3,11 @@
     padding: 0px;
 }
 .sect1{
-    background-color: aqua;
+    background-image: url("/Landing-page/assets/images/moving1.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    padding-bottom: 75px;
 }
 nav{
     display: flex;
@@ -11,6 +15,7 @@ nav{
     padding-right: 70px;
     padding-top: 65px;
     font-family: 'Adamina', serif;
+    
 }
 li{
     display: inline-block;
@@ -25,21 +30,24 @@ li{
     font-family: 'Adamina', serif;
     border-radius: 0px;
     border: 1px solid gray;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .sect1 > .p1{
-    font-size: 75px;
+    font-size: 65px;
     margin-left: 75px;
     padding-top: 30px;
     color: #FAFF00;
+    font-family: 'Adamina' ;
 }
 .sect1 > .p2{
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 75px;
     padding-top: 50px;
     color: lightgray;
+    font-family: 'Poppins' ;
 
 }
