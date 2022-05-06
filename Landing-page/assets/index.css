@@ -8,6 +8,8 @@
     background-size: cover;
     opacity: 1;
     padding-bottom: 75px;
+    height: 110vh;
+    
 }
 nav{
     display: flex;
@@ -23,6 +25,10 @@ li{
     font-size: 16px;
     
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .sect1 > nav > ul > li > a > button{
     font-size: 17px;
     padding-left: 10px;
@@ -32,10 +38,7 @@ li{
     border: 0;
     cursor: pointer;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
+
 #button1{
     background-color: #FAFF00;
     color: black;
@@ -55,7 +58,27 @@ a{
     font-size: 38px;
     margin-left: 75px;
     padding-top: 50px;
-    color: lightgray;
+    color: rgb(160, 156, 156);
     font-family: 'Poppins' ;
-
+}
+/*This is styling for section2*/
+.sect2{
+   
+    padding-top: 100px;
+    display: flex;
+    
+    align-items: center;
+}
+.sect2 > .container1{
+    width: 100%;
+}
+.sect2 > .container2{
+    width: 100%;
+    padding-left: 100px;
+}
+.sect2> .container2> .p1{
+    font-size: 70px;
+}
+.sect2> .container2> .p2{
+    font-size: 30px;
 }
