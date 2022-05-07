@@ -13,6 +13,13 @@ body{
     font-family: 'Poppins';
     height: 45vh;
 }
+a{
+    text-decoration: none;
+    color: gold;
+}
+a:hover{
+    color: white;
+}
 .sect1> nav{
     display: flex;
     justify-content: right;
@@ -212,7 +219,7 @@ span>img{
     background-color: white;
     margin-top: 50px;
     border-radius: 50px;
-    height: 150vh;
+    height: 130vh;
 }
 .sect7>p{
     padding: 50px;
@@ -255,5 +262,77 @@ span>img{
     margin: 10px;
     font-size: 22px;
     
+    
+}
+/*This is styling for section8*/
+.sect8{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    font-family: 'Actor';
+    margin-top: 100px;
+    border-radius: 0%;
+}
+
+.sect8>div> p{
+    font-size: 40px;
+    font-family: 'Actor';
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+    
+}
+.sect8>div>button{
+    padding: 15px;
+    font-size: 17px;
+    background-color: #FFAC12;
+    border: 0px;
+    border-top-right-radius: 20px;
+    margin-left: 1000px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    
+}
+.sect8> .container1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 3px solid lightgray;
+
+}
+.sect8>.container1> img{
+    margin: 50px;
+    margin-top: 150px;
+    padding: 1px;
+}
+
+.sect8>.container1> .subcontainer1{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    
+}
+.sect8> .container1> .subcontainer1> ul{
+    margin: 50px;
+    list-style-type: none;
+    margin-right: 100px;
+}
+.sect8>.subcontainer> ul> p{
+    margin-bottom: 35px;
+    
+}
+.sect8>.subcontainer> ul>li{
+    margin-bottom: 35px;
+    
+}
+.sect8>.container1>.subcontainer1> ul>p{
+    margin-bottom: 35px;
+    font-weight: 500px;
+    font-size: 20px;
     
 }
