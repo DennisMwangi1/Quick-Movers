@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Poppins';
 }
+body{
+    background-color: rgba(245, 245, 245, 0.842);
+}
 .sect1{
     background-color: black;
     color: white;
@@ -82,7 +85,7 @@
 .container2>.subcontainer{
     display: flex;
     margin: 30px;
-    background-color: rgba(236, 233, 233, 0.247);
+    background-color: white;
     border-radius: 10px;
     padding: 10px;
 }
@@ -104,15 +107,14 @@ div>.form>p{
 
 }
 .form>button{
-padding: 15px;
-font-size: 22px;
-background-color: black;
-color:white;
-border: 0px;
-border-top-right-radius: 20px;
-padding-left: 100px;
-padding-right: 100px;
-margin-left: 20px;
+    padding: 15px;
+    background-color: black;
+    color:white;
+    border: 0px;
+    border-top-right-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 20px;
 }
 /*This is styling for section3*/
 .sect3{
@@ -130,7 +132,7 @@ margin-left: 20px;
     width: 50%;
     margin-left: 100px;
     margin-top: 50px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 20px;
     height: 40vh;
 }
@@ -153,4 +155,105 @@ margin-left: 20px;
 span>img{
     width: 50px;
     height: 50px;
+}
+/*This is styling for section5*/
+.sect5{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    height: 100vh;
+}
+.sect5>p:first-child{
+    font-size: 25px;
+    padding-top: 40px;
+    border-bottom: 2px solid lightgrey;
+}
+.sect5>p{
+    
+    padding-bottom: 10px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 20px
+}
+/*This is styling for section6*/
+.sect6{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    height: 70vh;
+}
+.sect6>p{
+    font-size: 25px;
+    padding-top: 40px;
+    border-bottom: 2px solid lightgrey;
+    margin: 50px;
+    margin-bottom: 20px;
+}
+.sect6>div{
+    display: flex;
+    justify-content: space-between;
+}
+.sect6>div>ul{
+    margin: 30px;
+}
+.sect6>div>ul>li{
+    padding: 10px;
+    list-style-image: url('/Property-page/assets/images/tick.jpg' );
+    
+}
+/*This is styling for section7*/
+.sect7{
+    width: 80%;
+    margin-left: 100px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 150vh;
+}
+.sect7>p{
+    padding: 50px;
+    font-size: 50px;
+    font-family: 'Adamina';
+}
+.sect7>p>span{
+    border-top: 3px solid #FFAC12;
+    padding-top: 10px;
+    font-family: 'Adamina';
+}
+.sect7> .maindiv> div{
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+}
+.maindiv{
+    display: flex;
+    overflow-x: scroll;
+}
+.maindiv> div> p{
+    font-size: 30px;
+    margin: 25px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+#logo{
+    border-top: 2px solid rgba(214, 211, 211, 0.842);
+    margin-top: 5px;
+}
+#logo> img{
+    margin-left: 50px;
+    padding-top: 20px;
+    
+}
+#logo> span{
+    margin: 10px;
+    font-size: 22px;
+    
+    
 }
