@@ -7,6 +7,7 @@
     color: white;
     width: 100%;
     font-family: 'Poppins';
+    height: 45vh;
 }
 .sect1> nav{
     display: flex;
@@ -51,4 +52,75 @@
     color: lightgray;
     font-size: 15px;
     font-weight: 700px;
+}
+/*This is styling for sect2*/
+.sect2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    font-family: 'Poppins';
+}
+.sect2>.container1{
+    width: 100%;
+    margin-left: 100px;
+    
+}
+.sect2>.container2{
+    width: 50%;
+    background-color:white;
+    height: 570px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px  rgba(165, 157, 157, 0.144) ;
+    margin-top: 50px;
+    border: 1px solid rgba(221, 217, 217, 0.589);
+    
+    
+    
+}
+.container2>.subcontainer{
+    display: flex;
+    margin: 30px;
+    background-color: rgba(236, 233, 233, 0.247);
+    border-radius: 10px;
+    padding: 10px;
+}
+.container2>.subcontainer>img{
+    border-radius: 120px;
+}
+.container2>.subcontainer>p{
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+div>.form>p{
+    border: 2px solid rgba(221, 218, 218, 0.466);
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+.form>button{
+padding: 15px;
+font-size: 22px;
+background-color: black;
+color:white;
+border: 0px;
+border-top-right-radius: 20px;
+padding-left: 100px;
+padding-right: 100px;
+margin-left: 20px;
+}
+/*This is styling for section3*/
+.sect3{
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.sect3>div>img{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
 }
