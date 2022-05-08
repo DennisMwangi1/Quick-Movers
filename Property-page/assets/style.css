@@ -6,6 +6,7 @@
 body{
     background-color: rgba(245, 245, 245, 0.842);
 }
+
 .sect1{
     background-color: black;
     color: white;
@@ -15,7 +16,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: gold;
+    color: #FFAC12;
 }
 a:hover{
     color: white;
@@ -50,6 +51,16 @@ a:hover{
     margin-left: 140px;
     margin-top: 20px;
 }
+.sect1>div>.p11{
+    font-size: 30px;
+    color: white;
+    float: right;
+    width: 21%;
+}
+.sect1>div>.p11>.numspan{
+    font-size: 25px ; 
+    color: white;
+}
 .sect1>div>.p1{
     float: right;
     width: 21%;
@@ -65,6 +76,7 @@ a:hover{
     font-weight: 700px;
 }
 /*This is styling for sect2*/
+
 .sect2{
     display: flex;
     justify-content: space-between;
@@ -170,7 +182,7 @@ span>img{
     margin-top: 50px;
     background-color: white;
     border-radius: 20px;
-    height: 100vh;
+    height: 90vh;
 }
 .sect5>p:first-child{
     font-size: 25px;
@@ -178,7 +190,6 @@ span>img{
     border-bottom: 2px solid lightgrey;
 }
 .sect5>p{
-    
     padding-bottom: 10px;
     font-weight: 500;
     padding-left: 50px;
@@ -335,4 +346,101 @@ span>img{
     font-weight: 500px;
     font-size: 20px;
     
+}
+@media only screen and (max-width: 1000px) {
+    
+    .sect1>nav{
+        width: 50%;
+    }
+    .sect1>div>p{
+        width: 50%;
+        color: #FFAC12;
+        font-size: 15px;
+        margin: 1%;
+
+    }
+    .sect1>div>.p1 {
+        width: 50%;
+        color: #FFAC12;
+        font-size: 15px;
+        margin: 1%;
+    }
+    .sect1>div>.p11{
+        width: 50%;
+        color: #FFAC12;
+        font-size: 15px;
+        margin: 1%;
+    }
+    .sect1>div>.p11>.numspan{
+        width: 50%;
+        color: #FFAC12;
+        font-size: 15px;
+        margin: 0%;
+    }
+    .sect2>.container1{
+        margin: 1%;
+    }
+    .sect2>.container1>img{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        
+    }
+    .sect3{
+        margin: 1%;
+        width: 50%;
+    }
+    .sect4{
+        margin: 2%;
+    }
+    .sect4>p{
+        font-size: 20px;
+        padding: 0;
+    }
+    .sect4>div>span{
+        margin: 2%;
+    }
+    .sect5{
+        margin: 2%;
+    }
+    .sect5>p{
+        font-size: 10px;
+        padding: 5%;
+    }
+    .sect6{
+        width: 50%;
+        margin: 2%;
+    }
+    .sect6>.list>ul>li{
+        font-size: 10px;
+        padding: 2%;
+    }
+    .sect7{
+        width: 50%;
+        margin: 2%;
+        
+    }
+    .sect7>p{
+        font-size: 25px;
+        margin: 5%;
+        padding-bottom: 0px;
+
+        
+    }
+    .sect8{
+        width: 100%;
+    }
+    .sect8>div>p{
+        font-size: 25px;
+    }
+    .sect8>div>button{
+        margin: 0;
+    }
+    
+    .sect8>.container1>img{
+        display: none;
+    }
+    .sect8>.container1>.subcontainer1>ul{
+        font-size: 10px;
+    }
 }

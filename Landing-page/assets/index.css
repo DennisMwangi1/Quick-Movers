@@ -4,6 +4,8 @@
     
 }
 
+ 
+
 .sect1{
     background-image: url("/Landing-page/assets/images/moving1.png");
     background-position: center;
@@ -30,10 +32,17 @@ nav> ul> li{
 }
 a{
     text-decoration: none;
-    color: goldenrod;
+    color: #FAFF00;
 }
 a:hover{
     color: white;
+}
+.hide{
+    display: none;
+}
+#movers:hover + .hide{
+    display: block;
+    color: #FAFF00;
 }
 .sect1 > nav > ul > li > a > button{
     font-size: 17px;
