@@ -61,14 +61,14 @@ a:hover{
     color: #FAFF00;
     padding: 5px;
 }
-.sect1 > .p1{
+.sect1 >div> .p1{
     font-size: 65px;
     margin-left: 75px;
     padding-top: 30px;
     color: #FAFF00;
     font-family: 'Adamina' ;
 }
-.sect1 > .p2{
+.sect1 >div> .p2{
     font-size: 38px;
     margin-left: 75px;
     padding-top: 50px;
@@ -217,5 +217,73 @@ a:hover{
     margin-bottom: 35px;
     font-weight: 500px;
     font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .sect1{
+        width: 100%;
+        background-image: cover;
+        background-position: center;
+        height: 80vh;
+        margin:0%
+    }
+    .sect1>nav{
+        width: 75%;
+    }
+    .sect1>div>.p1{
+        font-size: 35px;
+    }
+    .sect1>div>.p2{
+        font-size: 20px;
+    }
+    .sect2{
+        width: 100%;
+    }
+    .sect2>.container1>img{
+        width: 250px;
+        height: 300px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .sect2>.container2{
+        margin-top: 0%;
+        padding: 0%;
+    }
+    .sect2>.container2>.p1{
+        font-size: 35px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .sect2>.container2>.p2{
+        font-size: 15px;
+    }
+    .sect2>.container2>a>#button3{
+        font-size: 15px;
+        padding: 3%;
+    }
+    .sect3{
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 5%;
+        padding: 2%;
+        height: fit-content;
+        margin-top: 50px;
+        
+        
+    }
+    .sect3>p{
+        font-size: 35px;
+        margin: 0%;
+        padding: 7%;
+    }
+    .sect3>.maindiv{
+        background-color: rgba(255, 255, 255, 0.486);
+        overflow-y: scroll;
+        width: 90%;
+        height: 80vh;
+        
+    }
+
     
 }
