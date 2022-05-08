@@ -381,8 +381,10 @@ span>img{
         font-size: 15px;
         margin: 0%;
     }
+   
     .sect2>.container1{
         margin: 1%;
+
     }
     .sect2>.container1>img{
         width: 100%;
@@ -408,13 +410,14 @@ span>img{
     
     .sect3{
         margin: 1%;
-        width: 50%;
+        width: 80%;
     }
     .sect4{
         margin: 2%;
+        width: 80%;
     }
     .sect4>p{
-        font-size: 20px;
+        font-size: 30px;
         padding: 0;
     }
     .sect4>div>span{
@@ -422,17 +425,18 @@ span>img{
     }
     .sect5{
         margin: 2%;
+        width: 80%;
     }
     .sect5>p{
-        font-size: 10px;
-        padding: 5%;
+        font-size: 12px;
+        padding: 3%;
     }
     .sect6{
-        width: 50%;
+        width: 80%;
         margin: 2%;
     }
     .sect6>.list>ul>li{
-        font-size: 10px;
+        font-size: 15px;
         padding: 2%;
     
     }
@@ -440,8 +444,9 @@ span>img{
         display: none;
     }
     .sect7{
-        width: 50%;
+        width: 80%;
         margin: 2%;
+        padding: 5%;
         
     }
     .sect7>p{
@@ -463,6 +468,9 @@ span>img{
     }
     
     .sect8>.container1>img{
+        display: none;
+    }
+    .sect8>.container1>.subcontainer1>.ul1{
         display: none;
     }
     .sect8>.container1>.subcontainer1>ul{
