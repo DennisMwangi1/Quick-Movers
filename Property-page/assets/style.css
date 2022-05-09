@@ -220,7 +220,7 @@ span>img{
 }
 .sect6>div>ul>li{
     padding: 10px;
-    list-style-image: url('Property-page/assets/images/tick.jpg' );
+    list-style-image: url('./images/tick.jpg' );
     
 }
 /*This is styling for section7*/
