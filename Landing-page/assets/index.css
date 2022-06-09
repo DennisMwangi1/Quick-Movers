@@ -5,7 +5,7 @@
 }
 
 .sect1{
-    background-image: url("./images/moving1.png");
+    background: url("./images/moving1.png");
     background-position: center;
     background-size: cover;
     opacity: 1;
@@ -134,7 +134,7 @@ a:hover{
 }
 .sect3>p>span{
     border-top: 5px solid ;
-    border-color: #FFAC12;
+    border-color:  linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     padding-top: 30px;
 }
 .sect3> .maindiv> div{
@@ -221,35 +221,49 @@ a:hover{
     
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1120px) {
+    body{
+        width: 100%;
+    }
     .sect1{
+        padding: 0%;
         width: 100%;
         background-image: cover;
         background-position: center;
-        height: 80vh;
-        margin:0%
+        margin:0%;
+        height: fit-content;
     }
     .sect1>nav{
-        width: 75%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
     }
     .sect1>div>.p1{
-        font-size: 35px;
+        font-size: 25px;
+        padding: 0%;
+        margin-left: 10px;
     }
     .sect1>div>.p2{
         font-size: 20px;
+        padding: 10px;
+        margin-left: 0px;
+        padding-bottom: 50px;
     }
     .sect2{
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
     .sect2>.container1>img{
-        width: 250px;
+        width: 100%;
         height: 300px;
         margin: 0%;
+        margin-bottom: 20%;
         padding: 0%;
     }
     .sect2>.container2{
         margin-top: 0%;
-        padding: 0%;
+        padding: 5%;
     }
     .sect2>.container2>.p1{
         font-size: 35px;
@@ -261,15 +275,17 @@ a:hover{
     }
     .sect2>.container2>a>#button3{
         font-size: 15px;
-        padding: 3%;
+        padding: 0%;
+        margin-left: 0%;
     }
     .sect3{
         width: 100%;
         margin: 0%;
         margin-bottom: 5%;
-        padding: 2%;
+        padding: 0%;
         height: fit-content;
         margin-top: 50px;
+        margin-bottom: 100px;
         
         
     }
@@ -277,19 +293,26 @@ a:hover{
         font-size: 35px;
         margin: 0%;
         padding: 7%;
+        text-decoration: underline;
+    }
+    .sect3>p>span{
+        border-top: none;
+        font-style: oblique;
     }
     .sect3>.maindiv{
-        background-color: rgba(255, 255, 255, 0.486);
+        background-color:white;
         overflow-y: scroll;
-        width: 90%;
-        height: 80vh;
+        width: 100%;
+        height: 50vh;
+        
         
     }
+  
     .sect4{
         width: 100%;
         height: 100%;
         margin: 0%;
-        padding: 2%;
+        padding: 0%;
     }
     .sect4>p{
         font-size: 35px;
@@ -309,6 +332,17 @@ a:hover{
     .sect4>.container1>.subcontainer1>ul>li{
         font-size: 15px;
     }
+    @media only screen and (min-width: 420px) {
+        .sect2>.container1>img{
+            width: 400px;
+        }
+    }
 
-    
+    @media only screen and (min-width: 720px){
+        .sect2{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
+   
 }
