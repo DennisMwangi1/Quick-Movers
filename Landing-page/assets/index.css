@@ -293,7 +293,8 @@ a:hover{
         font-size: 35px;
         margin: 0%;
         padding: 7%;
-        text-decoration: underline;
+        font-weight: 700;
+        
     }
     .sect3>p>span{
         border-top: none;
@@ -334,15 +335,16 @@ a:hover{
     }
     @media only screen and (min-width: 420px) {
         .sect2>.container1>img{
-            width: 400px;
+            width: 350px;
         }
     }
 
-    @media only screen and (min-width: 720px){
+    @media only screen and (min-width: 550px){
         .sect2{
             display: flex;
             flex-wrap: nowrap;
         }
+        
     }
    
 }

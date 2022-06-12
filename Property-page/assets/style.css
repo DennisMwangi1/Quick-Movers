@@ -12,7 +12,8 @@ body{
     color: white;
     width: 100%;
     font-family: 'Poppins';
-    height: 45vh;
+    padding-bottom: 50px;
+    height: fit-content;
 }
 a{
     text-decoration: none;
@@ -78,10 +79,12 @@ a:hover{
 /*This is styling for sect2*/
 
 .sect2{
+    height: fit-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 150px;
     font-family: 'Poppins';
+    
 }
 .sect2>.container1{
     width: 100%;
@@ -91,8 +94,8 @@ a:hover{
 .sect2>.container2{
     width: 50%;
     background-color:white;
-    height: 570px;
-    margin-right: 100px;
+    height: fit-content;
+    padding-bottom: 50px;
     border-radius: 20px;
     box-shadow: 10px 10px  rgba(165, 157, 157, 0.144) ;
     margin-top: 50px;
@@ -137,7 +140,8 @@ div>.form>p{
 }
 /*This is styling for section3*/
 .sect3{
-    width: 60%;
+    height: fit-content;
+    width: 100%;
     margin-left: 90px;
     margin-top: 10px;
 }
@@ -148,12 +152,13 @@ div>.form>p{
 }
 /*This is styling for section4*/
 .sect4{
-    width: 50%;
+    width: 40%;
     margin-left: 100px;
     margin-top: 50px;
     background-color: white;
     border-radius: 20px;
-    height: 40vh;
+    height: fit-content;
+    padding-bottom: 50px;
 }
 .sect4>p{
     margin: 30px;
@@ -347,133 +352,179 @@ span>img{
     font-size: 20px;
     
 }
-@media only screen and (max-width: 1000px) {
-    
+@media only screen and (max-width: 920px) {
+    .sect1{
+        height: fit-content;
+    }
     .sect1>nav{
-        width: 50%;
-        
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .sect1>nav>ul>li>button{
+        display: none;
     }
     .sect1>div{
         border: none;
+        
     }
     .sect1>div>p{
-        width: 50%;
+        width: 100%;
         color: #FFAC12;
         font-size: 15px;
         margin: 1%;
 
     }
     .sect1>div>.p1 {
-        width: 50%;
+        width: 100%;
         color: #FFAC12;
         font-size: 15px;
-        margin: 1%;
+        margin: -1%;
     }
     .sect1>div>.p11{
-        width: 50%;
-        color: #FFAC12;
-        font-size: 15px;
-        margin: 1%;
+       display: none;
+       
     }
     .sect1>div>.p11>.numspan{
-        width: 50%;
-        color: #FFAC12;
-        font-size: 15px;
-        margin: 0%;
+        
+        display: none;
+        
+    }
+    .sect2{
+        margin: 3%;
+        margin-top: 30px;
+        height: fit-content;
+        display: block;
     }
    
     .sect2>.container1{
-        margin: 1%;
+        width: 100%;
+        margin: -3%;
+        margin-bottom: 30px;
+        padding: 0;
 
     }
     .sect2>.container1>img{
         width: 100%;
         height: 400px;
-        margin: 0px;
-        
-        
-        
     }
+   
     .sect2>.container2{
         width: 100%;
-        margin-left: 50px;
-        height: 500px;
+        margin: 0%;
+        padding: 2%;
+        /* margin-left: 50px; */
+        /* height: 500px; */
         
     }
     .sect2>.container2>.form>p{
-        padding: 1%;
+        padding: 5%;
         margin: 5%;
     }
     .sect2>.container2>.form>button{
-        padding: 0;
+        padding: 1%;
+        margin-left: 0px;
     }
     
     .sect3{
         margin: 1%;
-        width: 80%;
+        width: 100%;
     }
     .sect4{
-        margin: 2%;
-        width: 80%;
+        margin: 0.5%;
+        width: 100%;
+        height: fit-content;
     }
     .sect4>p{
         font-size: 30px;
         padding: 0;
     }
     .sect4>div>span{
-        margin: 2%;
+        margin: 3%;
     }
     .sect5{
-        margin: 2%;
-        width: 80%;
+        margin: 0.5%;
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
     }
     .sect5>p{
-        font-size: 12px;
+        font-size: 15px;
         padding: 3%;
     }
     .sect6{
-        width: 80%;
-        margin: 2%;
+        width: 100%;
+        padding: 0;
+        margin: 0.5%;
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+    .sect6>.list{
+        width: 100%;
     }
     .sect6>.list>ul>li{
+        width: 100%;
         font-size: 15px;
-        padding: 2%;
+        padding: 5%;
+        
     
     }
     .sect6>.list>.ul1{
         display: none;
     }
     .sect7{
-        width: 80%;
-        margin: 2%;
-        padding: 5%;
+        width: 100%;
+        margin: 0.5%;
+        height: fit-content;
+        display: none;
         
     }
     .sect7>p{
         font-size: 25px;
         margin: 5%;
         padding-bottom: 0px;
-        padding: 4%;
+        padding-top: 15%;
+        
 
         
     }
+    .sect7>.maindiv{
+        width: 100%;
+        
+
+    }
+    .sect7>.maindiv>div{
+        width: 100%;
+        margin: 5%;
+        
+
+    }
     .sect8{
         width: 100%;
+        height: fit-content;
     }
     .sect8>div>p{
         font-size: 25px;
+        display: none;
     }
+    
     .sect8>div>button{
-        margin: 0;
+        margin: 5%;
+        margin-left: 0%;
     }
     
     .sect8>.container1>img{
         display: none;
     }
     .sect8>.container1>.subcontainer1>.ul1{
-        display: none;
+        font-size: 15px;
+        margin: 5%;
     }
     .sect8>.container1>.subcontainer1>ul{
         font-size: 15px;
+        margin: 5%;
     }
+}
+@media only screen and (max-width: 300px){
+    
 }
